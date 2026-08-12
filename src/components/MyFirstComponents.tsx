@@ -3,7 +3,9 @@ import '../App.css';
 type MyComponentTestType = { text: string };
 
 function FirstComponent({text}: MyComponentTestType){
-    return <div>{text}</div>
+    return <div>
+        {text}
+    </div>
 
 }
 
