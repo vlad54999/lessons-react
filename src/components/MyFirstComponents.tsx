@@ -1,10 +1,15 @@
 import '../App.css';
+import type {ReactNode} from "react";
 
-type MyComponentTestType = { text: string };
+type MyComponentTestType = {
+    text: string;
+    children?: ReactNode;
+};
 
-function FirstComponent({text}: MyComponentTestType){
+function FirstComponent({text, children}: MyComponentTestType){
     return <div>
-        {text}
+        <h2>{text}</h2>
+        <p>{children}</p>
     </div>
 
 }
