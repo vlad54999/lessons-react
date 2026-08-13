@@ -1,13 +1,11 @@
 import './App.css'
-import FirstComponent from "./components/MyFirstComponents.tsx";
+import {CoursesComponent} from "./components/courses-component/CoursesComponent.tsx";
 
 function App() {
 
   return (
     <>
-      Hello Vlad!!!!
-      <FirstComponent text={'Hello Vlad'}>Lorem ipsum dolor.</FirstComponent>
-      {FirstComponent({text: 'Hello World!!!!'})}
+        <CoursesComponent/>
     </>
   )
 }

@@ -1,0 +1,14 @@
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+ul{
+    margin: 10px;
+}
+li{
+    list-style-type: circle;
+}
