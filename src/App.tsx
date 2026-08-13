@@ -1,15 +1,26 @@
 import './App.css'
-import FirstComponent from "./components/MyFirstComponents.tsx";
+import {CoursesComponent} from "./components/courses-component/CoursesComponent.tsx";
+
+// #Fs05Kiho
+//
+// з arrays.js взяти масив coursesAndDurationArray.
+//
+//     Вивести кожен його елемент, створивши необхідні моделі та компоненти
+//
+// Стилізація довільна, але обов’язково підключена і мінімально зроблена (хоча б один стиль, який працює).
+
 
 function App() {
 
   return (
     <>
-      Hello Vlad!!!!
-      <FirstComponent text={'Hello Vlad'}>Lorem ipsum dolor.</FirstComponent>
-      {FirstComponent({text: 'Hello World!!!!'})}
+      <CoursesComponent/>
     </>
   )
 }
 
 export default App
+
+//CourseModel+++
+//CoursesComponent
+//CourseComponent
