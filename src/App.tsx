@@ -1,13 +1,12 @@
 import './App.css'
-import FirstComponent from "./components/MyFirstComponents.tsx";
+import {FamilyrComponent} from "./components/familyr-component/FamilyrComponent.tsx";
+
 
 function App() {
 
   return (
     <>
-      Hello Vlad!!!!
-      <FirstComponent text={'Hello Vlad'}>Lorem ipsum dolor.</FirstComponent>
-      {FirstComponent({text: 'Hello World!!!!'})}
+        <FamilyrComponent/>
     </>
   )
 }
