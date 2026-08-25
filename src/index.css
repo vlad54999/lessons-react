@@ -1,1 +1,20 @@
 @import "tailwindcss";
+body{
+    background-color: grey;
+}
+h2{
+    font-size: 30px;
+    font-weight:  bold;
+    color: white;
+    margin: 40px 15px;
+}
+h3{
+    font-size: 26px;
+    color: white;
+    margin: 10px 15px;
+}
+p{
+    font-size: 20px;
+    color: white;
+    margin: 20px 25px;
+}
