@@ -1,13 +1,12 @@
 import './App.css'
-import FirstComponent from "./components/MyFirstComponents.tsx";
+import {TodoComponents} from "./components/todo-components/TodoComponents.tsx";
+
 
 function App() {
 
   return (
     <>
-      Hello Vlad!!!!
-      <FirstComponent text={'Hello Vlad'}>Lorem ipsum dolor.</FirstComponent>
-      {FirstComponent({text: 'Hello World!!!!'})}
+        <TodoComponents/>
     </>
   )
 }
