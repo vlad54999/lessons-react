@@ -1,15 +1,15 @@
-import type {PostModel} from "../models/posts-model/PostModel.ts";
-import type {PostResponseDymmy} from "../models/posts-model/PostResponseDymmy.ts";
+import type {ProductModel} from "../models/products-model/ProductModel.ts";
+import type {ProductResponseDymmy} from "../models/products-model/ProductResponseDymmy.ts";
 
-const endpointPosts = import.meta.env.VITE_API_BASE_URL + '/posts';
+const endpointProducts = import.meta.env.VITE_API_BASE_URL + '/products';
 
-const loadPosts = async () : Promise<PostModel[]> => {
-    const response:PostResponseDymmy = await fetch(endpointPosts)
+const loadProducts = async () : Promise<ProductModel[]> => {
+    const response:ProductResponseDymmy = await fetch(endpointProducts)
         .then(value => value.json())
 
-    return response.posts;
+    return response.products;
 }
 export {
-    loadPosts
+    loadProducts
 }
-console.log(loadPosts)
+console.log(loadProducts)
