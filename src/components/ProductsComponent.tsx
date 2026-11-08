@@ -1,5 +1,5 @@
 export const ProductsComponent = () => {
     return (
-        <>Comments component</>
+        <div>Products component</div>
     );
 };
